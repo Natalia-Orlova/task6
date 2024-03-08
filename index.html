@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="authorization" action="#">
+            <h2 class="title">Авторизация</h2>
+            <label for="email">Введите почту</label>
+            <input type="email" name="email" id="email" placeholder="Введите email" autocomplete="off">
+            <label for="pswd">Введите пароль</label>
+            <input type="password" name="pswd" id="pswd" placeholder="Введите пароль">
+            <button type="submit">Войти</button>
+        </form>
+        <img class="reload" width="30px" src="img/reload2.svg" alt="reload-img">
+        <form class="registration" action="#">
+            <h2 class="title">Регистрация</h2>
+            <label for="f-name">Введите имя</label>
+            <input type="text" name="f-name" id="f-name" autocomplete="off">
+            <label for="l-name">Введите фамилию</label>
+            <input type="text" name="l-name" id="l-name" autocomplete="off">
+            <label for="mail">Введите почту</label>
+            <input type="email" name="mail" id="mail" autocomplete="off">
+            <label for="pswd">Введите пароль</label>
+            <input type="password" name="psw" id="psw">
+            <label for="rep-pswd">Повторите пароль</label>
+            <input type="password" name="rep-psw" id="rep-psw">
+            <label><input type="checkbox" name="accept"> Принимаю условия на обработку персональных данных</label>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
+
+</html>
